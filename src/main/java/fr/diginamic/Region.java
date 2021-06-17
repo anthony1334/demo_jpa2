@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name="regions")
 public class Region {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private int code_region;
     private String nom_region;
 
